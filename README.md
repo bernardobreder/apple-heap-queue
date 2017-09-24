@@ -1,10 +1,10 @@
-# Introdução
+# Introduction
 
-O componente HeapQueue tem o objetivo de ser uma fila de prioridade aonde os elementos mais baixos tem mais prioridade de sair da lista do que os elementos mais altos. Essa fila possui a característica deter a complexidade logn de inserir e remover.
+The HeapQueue component is intended to be a priority queue where lower elements have a higher priority than leaving the list of higher elements. This queue has a characteristic that determines a logn complexity of insert and remover.
 
-# Exemplo
+# Example
 
-O exemplo abaixo mostra o uso da fila
+The example below shows the usage of the queue
 
 ```swift
 let queue = HeapQueue<Int>({$0 < $1})
